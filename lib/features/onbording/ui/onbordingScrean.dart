@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../../../core/widget/Get_started.dart';
-import '../../../../core/widget/doc_Text.dart';
-import '../../../../core/widget/doc_imagedoctor_andText.dart';
-import '../../../../core/widget/doc_logo_and_Name.dart';
+import 'widget/Get_started.dart';
+import 'widget/doc_Text.dart';
+import 'widget/doc_imagedoctor_andText.dart';
+import 'widget/doc_logo_and_Name.dart';
 
 class onbordingSrean extends StatelessWidget {
   const onbordingSrean({super.key});

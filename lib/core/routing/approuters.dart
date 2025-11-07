@@ -18,7 +18,7 @@ import '../../features/onbording/ui/onbordingScrean.dart';
     return MaterialPageRoute(builder: (_)=>const onbordingSrean());
 
 
-   case Routes.loginScrean:
+   case Routes.loginScreans:
     return MaterialPageRoute(builder: (_)=>BlocProvider(create: (context)=>gitit<LoginCubit> (),child: login()));
 
    default:

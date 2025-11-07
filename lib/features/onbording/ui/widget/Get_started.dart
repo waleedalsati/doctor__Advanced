@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:waleed/core/helpers/extentions.dart';
+import 'package:waleed/core/theming/colors/textstyles.dart';
 
-import '../routing/approuters.dart';
-import '../routing/routers.dart';
+import '../../../../core/routing/approuters.dart';
+import '../../../../core/routing/routers.dart';
 
 class Get_started extends StatelessWidget {
   const Get_started({super.key});
@@ -19,10 +20,13 @@ borderRadius: BorderRadius.circular(16),
         ),
        child: TextButton(onPressed: (){
 
-context.pushNamed(Routes.loginScrean);
+context.pushNamed(Routes.loginScreans);
 
-       }, child: Text('Get Started',style:
-        TextStyle(fontSize: 30,color: Colors.white),)),),
-    );
+       }, child: Text('Get Started',
+         style:
+        Textstyles.Fontweightwhite,
+    )
+       )
+      )) ;
   }
 }

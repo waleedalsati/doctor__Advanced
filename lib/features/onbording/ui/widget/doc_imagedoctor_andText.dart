@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:waleed/core/theming/colors/textstyles.dart';
 class doc_imagedoctor_andText extends StatelessWidget {
   const doc_imagedoctor_andText({super.key});
 
@@ -36,7 +37,7 @@ class doc_imagedoctor_andText extends StatelessWidget {
     bottom: 3,
 
 
-          child:Center(child:Text('Best Doctor Appointment App',textAlign: TextAlign.center,style: TextStyle(fontSize: 32.sp,color: Colors.blue,fontWeight: FontWeight.bold),) ,)  ,),
+          child:Center(child:Text('Best Doctor Appointment App',textAlign: TextAlign.center,style: Textstyles.Fontweightblue,) ,)  ,),
 
 
         ],
